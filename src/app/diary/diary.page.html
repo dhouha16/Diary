@@ -1,0 +1,38 @@
+<ion-header style="background-color: #f7bfdd;">
+  <ion-toolbar >
+    <ion-title></ion-title>
+    <ion-buttons solt="start" style="background-color: antiquewhite;">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <h2 class="police3">liste des notes</h2>
+      <ion-item line="none" class="ion-align-items">
+        <ion-grid>
+          <ion-row class="ion-align-items-center" *ngFor="let x of MemoData; let i = index" >
+            <ion-col size="3" >
+            <!--  <ion-button color="light" fill="clear">-->
+           
+             <p class="police">{{x.date.dateDebut}}</p> 
+             <p class="police">{{x.date.dateFin}}</p> 
+              
+           
+            </ion-col>
+            <ion-col size="5" >
+              <p class="police2">{{x.titre}}</p>
+            </ion-col>
+  
+            <ion-col size="4" >
+              
+              <p class="police4">{{x.dossier}}</p>
+              
+            </ion-col>
+  
+          </ion-row>
+        </ion-grid>
+      </ion-item>
+  </div>
+</ion-content>

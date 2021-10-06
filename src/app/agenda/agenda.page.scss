@@ -1,0 +1,15 @@
+.indicator-container{
+    padding-left: 0.5em;
+    padding-bottom: 0.4em;
+}
+.event-indicator{
+    background: var(--ion-color-sucess);
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    display: table-cell;
+}
+.with-event{
+    background-color: var(--ion-color-primary);
+    border-radius: 15px;
+}

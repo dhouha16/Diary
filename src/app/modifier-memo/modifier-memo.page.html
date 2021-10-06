@@ -1,0 +1,125 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title></ion-title>
+    <ion-buttons solt="start" style="background-color: antiquewhite;">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-label>titre</ion-label>
+      <ion-input [(ngModel)]="_titre"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>text</ion-label>
+      <ion-input [(ngModel)]="_text"></ion-input>
+    </ion-item>
+   <!--<ion-item>
+      <ion-label>dossier</ion-label>
+      <ion-input [(ngModel)]="_dossier" ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>humeur</ion-label>
+      <ion-input [(ngModel)]="_humeur"></ion-input>
+    </ion-item>
+    <!--<ion-item>
+      <ion-label>tag</ion-label>
+      <ion-input [(ngModel)]="_tag"></ion-input>
+    </ion-item>-->
+    <ion-item>
+      <ion-label>date debut</ion-label>
+      <ion-input type="date" [(ngModel)]="_date_debut"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>date fin</ion-label>
+      <ion-input type="date" [(ngModel)]="_date_fin"></ion-input>
+    </ion-item>
+
+
+  <!--  <ion-item>
+      <ion-list>
+        <ion-radio-group [(ngModel)]="_dossier">
+          <ion-list-header>
+            <ion-label>dossier</ion-label>
+          </ion-list-header>
+      
+          <ion-item>
+            <ion-label>affaire</ion-label>
+            <ion-radio slot="start" value="affaire"  ></ion-radio>
+          </ion-item>
+      
+          <ion-item>
+            <ion-label>amour</ion-label>
+            <ion-radio slot="start" value="amour"></ion-radio>
+          </ion-item>
+      
+          <ion-item>
+            <ion-label>amis</ion-label>
+            <ion-radio slot="start" value="amis" ></ion-radio>
+          </ion-item>
+        </ion-radio-group>
+
+      </ion-list>
+    </ion-item>-->
+
+
+    <ion-item>
+      <ion-label>Select</ion-label>
+      <ion-select [(ngModel)]="_dossier">
+        <ion-select-option value="affaire">affaire</ion-select-option>
+        <ion-select-option value="amis">amis</ion-select-option>
+        <ion-select-option value="amour">amour</ion-select-option>
+        <ion-select-option value="divertissement">divertissement</ion-select-option>
+        <ion-select-option value="education">education</ion-select-option>
+        <ion-select-option value="todo">todo</ion-select-option>
+        <ion-select-option value="vacance">vacance</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+
+    <ion-item>
+      <ion-label>Select</ion-label>
+      <ion-select [(ngModel)]="_humeur">
+        <ion-select-option value="heureux">heureux</ion-select-option>
+        <ion-select-option value="horrible">horrible</ion-select-option>
+        <ion-select-option value="incroyable">incroyable</ion-select-option>
+        <ion-select-option value="mauvaise">mauvaise</ion-select-option>
+        <ion-select-option value="pas de humeur">pas de humeur</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+
+    <ion-list>
+  <ion-list-header>
+    <ion-label>
+      Multiple Selection
+    </ion-label>
+  </ion-list-header>
+
+  <ion-item>
+    <ion-label>Toppings</ion-label>
+    <ion-select multiple="true" cancelText="Nah" okText="Okay!" [(ngModel)]="_tag">
+      <ion-select-option value="bacon">Bacon</ion-select-option>
+      <ion-select-option value="olives">Black Olives</ion-select-option>
+      <ion-select-option value="xcheese">Extra Cheese</ion-select-option>
+      <ion-select-option value="peppers">Green Peppers</ion-select-option>
+      <ion-select-option value="mushrooms">Mushrooms</ion-select-option>
+      <ion-select-option value="onions">Onions</ion-select-option>
+      <ion-select-option value="pepperoni">Pepperoni</ion-select-option>
+      <ion-select-option value="pineapple">Pineapple</ion-select-option>
+      <ion-select-option value="sausage">Sausage</ion-select-option>
+      <ion-select-option value="Spinach">Spinach</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  
+</ion-list>
+
+<ion-button color="danger" (click)="update()" >ajouter</ion-button>
+<ion-button color="danger" [routerLink]="['/liste-etudiant']" >annuler</ion-button>
+    
+  </ion-list>
+</ion-content>

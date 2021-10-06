@@ -1,0 +1,86 @@
+<ion-app class="page">
+  <div>
+    <svg class="back-blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#8295A3" d="M68.6,-33.5C81.6,-17.2,79.6,13.8,65.7,37.6C51.8,61.3,25.9,77.8,2.1,76.6C-21.7,75.4,-43.5,56.5,-54.2,34.6C-65,12.7,-64.8,-12.3,-53.9,-27.4C-43,-42.4,-21.5,-47.6,3.2,-49.4C27.9,-51.2,55.7,-49.7,68.6,-33.5Z" transform="translate(100 100)" />
+    </svg>
+  <ion-menu menuId="main-menu" contentId="main" class="page">
+    <ion-content>
+      <div class="menu-header-bg">
+
+      </div>
+      <div class="header-content">
+        <img src="..\assets\avatar.jpg" alt="" width="80" height="80">
+        <ion-label>
+          <h2>Don Du Sang</h2>
+        </ion-label>
+      </div>
+      <div class="action-button">
+        <ion-button> 
+          <ion-icon slot="start" name="add"></ion-icon>  Home
+        </ion-button>
+      </div>
+
+      <ion-menu-toggle auto-hide="false">
+        <ion-list lines="none">
+
+          <ion-item routerLink="diary">
+            <img src="..\assets\icon\home.png" width="20" height="20">
+            Home
+          </ion-item>
+
+          <ion-item routerLink="agenda">
+            <img src="..\assets\icon\calendar.png" width="20" height="20"> agenda </ion-item>
+
+
+            <ion-item routerLink="creer-memo">
+              <img src="..\assets\icon\add.png" width="20" height="20"> ajouter un note </ion-item>
+  
+
+  
+        
+          </ion-list>
+
+        
+      </ion-menu-toggle>
+      <ion-item routerLink="liste-memo">
+        <img src="..\assets\icon\note.png" width="20" height="20">
+        <span><p> memo note </p> </span>
+        <ion-icon slot="end" [name]="isDossier? 'arrow-dropdown' : 'arrow-dropright'"></ion-icon>
+      </ion-item>
+     
+    <!--*************************************************-->
+
+      <ion-menu-toggle auto-hide="false">
+        <ion-list lines="none">
+          
+         
+        
+
+              
+      <!--************************************************* tags-->        
+  
+
+      <ion-item >
+        <a href="www.instagram.com/officialastoldbyginger/">
+          <img src="..\assets\icon\insta.png" width="20" height="20">
+        instagram
+      </a>
+      </ion-item>
+      <ion-item >
+        <a href="www.facebook.com/pocketknifenews">
+          <img src="..\assets\icon\facebook.png" width="20" height="20">
+        facebook
+      </a>
+      </ion-item>
+        
+
+         
+</ion-list>
+</ion-menu-toggle>
+</ion-content>
+
+
+</ion-menu>
+<ion-router-outlet id="main"></ion-router-outlet>
+</div>
+</ion-app>

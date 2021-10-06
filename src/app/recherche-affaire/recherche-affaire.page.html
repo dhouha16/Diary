@@ -1,0 +1,63 @@
+<ion-header style="background-color: #f7bfdd;">
+  <ion-toolbar >
+    <ion-title></ion-title>
+    <ion-buttons solt="start" style="background-color: antiquewhite;">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="con">
+  <div class="container">
+  <h2>last file</h2>
+    <ion-item line="none" class="ion-align-items">
+      <ion-grid>
+        <ion-row class="ion-align-items-center" *ngFor="let x of MemoData; let i = index" >
+          <ion-col size="3" >
+          <!--  <ion-button color="light" fill="clear">-->
+         
+           <p class="police">{{x.date.dateDebut}}</p> 
+           <p class="police">{{x.date.dateFin}}</p> 
+            
+         
+          </ion-col>
+          <ion-col size="7" >
+            {{x.titre}}
+          </ion-col>
+
+          <ion-col size="2" >
+            
+              <div>
+              <img src="..\assets\icon\icons8-delete-48.png" (click)="supprimer(x)">
+              <img src="..\assets\icon\icons8-fountain-pen-48.png" routerLink='/modifier-memo/{{x.id}}'>
+                
+
+              </div>
+            
+          </ion-col>
+
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+</div>
+<!--<ion-button color="warning" size="small" >
+  <ion-icon name="create" size="small">
+  </ion-icon>
+</ion-button>
+<img src="..\assets\icon\icons8-delete-48.png" (click)="supprimer(x)">
+    <ion-icon name="trash"></ion-icon></ion-button>-->
+
+</ion-content>
+
+ 
+ <!--   <p *ngFor="let x of MemoData; let i = index">
+      {{x.id}}
+      <td>{{x.date.dateDebut}}</td>
+      <td>{{x.date.dateFin}}</td>
+      <td>{{x.text}}</td>
+      <td><p>{{x.dossier}}</p></td>
+      <td>{{x.humeur}}</td>
+      <td>{{x.tag}}</td>
+     </p>--> 
+
+

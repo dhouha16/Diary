@@ -1,0 +1,113 @@
+{
+  "memos": [
+    {
+      "titre": "malek",
+      "date": {},
+      "id": 27
+    },
+    {
+      "titre": "projet",
+      "text": "je fais mon projet ionic",
+      "dossier": "education",
+      "humeur": "pas de humeur",
+      "tag": [
+        "bacon"
+      ],
+      "date": {
+        "dateDebut": "2020-12-28",
+        "dateFin": "2021-02-04"
+      },
+      "id": 28
+    },
+    {
+      "titre": "DIARY",
+      "text": "Il est 20h. Aujourd’hui je commence à t’écrire car c’est les vacances. Je peux enfin me reposer pendant 2 semaines. Je suis heureux, je vais enfin pouvoir dormir jusqu'à 10h. J’ai déjà commencé à lire le livre « le gang des Dalton », je suis déjà à la page 50. Comme j’ai dit je peux enfin dormir mais je me suis levé à 8h30 car je n’arrivais pas à dormir plus longtemps.",
+      "dossier": "divertissement",
+      "humeur": "heureux",
+      "tag": [
+        "pas de tag"
+      ],
+      "date": {
+        "dateDebut": "2021-01-04"
+      },
+      "id": 29
+    },
+    {
+      "titre": "NOEL",
+      "text": "Il est 23h. Aujourd’hui, nous ne sommes pas sortis car il pleuvait, j’étais vraiment déçu. J’ai fait un peu de mes devoirs pour la deuxième fois des vacances.\nEnsuite, j’ai aidé ma mère et ma sœur à construire et décorer le sapin de Noël car celui-ci est artificiel. Il est magnifique avec les guirlandes et les boules de noël, j’étais satisfait car il est vraiment bien réussi.",
+      "dossier": "amis",
+      "humeur": "heureux",
+      "tag": [
+        "pas de tag"
+      ],
+      "date": {
+        "dateDebut": "2020-12-24"
+      },
+      "id": 30
+    },
+    {
+      "titre": "NOEL",
+      "text": "Il est 23h. Aujourd’hui, nous ne sommes pas sortis car il pleuvait, j’étais vraiment déçu. J’ai fait un peu de mes devoirs pour la deuxième fois des vacances.\nEnsuite, j’ai aidé ma mère et ma sœur à construire et décorer le sapin de Noël car celui-ci est artificiel. Il est magnifique avec les guirlandes et les boules de noël, j’étais satisfait car il est vraiment bien réussi.",
+      "dossier": "amis",
+      "humeur": "heureux",
+      "tag": [
+        "pas de tag"
+      ],
+      "date": {
+        "dateDebut": "2020-12-24"
+      },
+      "id": 31
+    },
+    {
+      "titre": "NOEL",
+      "text": "Il est 23h. Aujourd’hui, nous ne sommes pas sortis car il pleuvait, j’étais vraiment déçu. J’ai fait un peu de mes devoirs pour la deuxième fois des vacances.\nEnsuite, j’ai aidé ma mère et ma sœur à construire et décorer le sapin de Noël car celui-ci est artificiel. Il est magnifique avec les guirlandes et les boules de noël, j’étais satisfait car il est vraiment bien réussi.",
+      "dossier": "amis",
+      "humeur": "heureux",
+      "tag": [
+        "pas de tag"
+      ],
+      "date": {
+        "dateDebut": "2020-12-24"
+      },
+      "id": 32
+    },
+    {
+      "titre": "NOEL",
+      "text": "Il est 23h. Aujourd’hui, nous ne sommes pas sortis car il pleuvait, j’étais vraiment déçu. J’ai fait un peu de mes devoirs pour la deuxième fois des vacances.\nEnsuite, j’ai aidé ma mère et ma sœur à construire et décorer le sapin de Noël car celui-ci est artificiel. Il est magnifique avec les guirlandes et les boules de noël, j’étais satisfait car il est vraiment bien réussi.",
+      "dossier": "amis",
+      "humeur": "heureux",
+      "tag": [
+        "pas de tag"
+      ],
+      "date": {
+        "dateDebut": "2020-12-24"
+      },
+      "id": 33
+    },
+    {
+      "titre": "NOEL",
+      "text": "Il est 23h. Aujourd’hui, nous ne sommes pas sortis car il pleuvait, j’étais vraiment déçu. J’ai fait un peu de mes devoirs pour la deuxième fois des vacances.\nEnsuite, j’ai aidé ma mère et ma sœur à construire et décorer le sapin de Noël car celui-ci est artificiel. Il est magnifique avec les guirlandes et les boules de noël, j’étais satisfait car il est vraiment bien réussi.",
+      "dossier": "amis",
+      "humeur": "heureux",
+      "tag": [
+        "pas de tag"
+      ],
+      "date": {
+        "dateDebut": "2020-12-24"
+      },
+      "id": 34
+    },
+    {
+      "titre": "Kiffe kiffe demain",
+      "text": "Kiffe Kiffe demain, Faïza Guène Avant d’entrer plus en détail dans le roman, on va d’abord mettre le livre en contexte et présenter le genre du journal intime. Kiffe Kiffe demain a été publié en 2004 et raconte, à travers le personnage de Doria, la vie d’une fille d’immigrés en banlieue parisienne. Comme on le sait, les premières vagues d’immigration en provenance du Maghreb, sont principalement venues d’Algérie. Vagues qui se sont accentuées après la guerre d’Algérie, avec la France qui avait besoin de main d’œuvre pour dynamiser le pays, en pleine période des Trente Glorieuses, moment de grande croissance économique. Ils se considéraient comme des ressortissants temporaires, qui prévoyaient de résider peu de temps en France et de rentrer chez eux. ",
+      "humeur": "pas de humeur",
+      "tag": [
+        "pas de tag"
+      ],
+      "date": {
+        "dateDebut": "2020-12-28"
+      },
+      "id": 35
+    }
+  ]
+}

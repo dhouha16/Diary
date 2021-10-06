@@ -1,0 +1,120 @@
+<link src="C:\Users\Dhouha\Desktop\mini projet mobile hybride\diary_project\src\assets\css2.css" rel="stylesheet">
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-title></ion-title>
+    <ion-buttons solt="start">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content fullscreen="true">
+  <svg class="back-blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#8295A3" d="M68.6,-33.5C81.6,-17.2,79.6,13.8,65.7,37.6C51.8,61.3,25.9,77.8,2.1,76.6C-21.7,75.4,-43.5,56.5,-54.2,34.6C-65,12.7,-64.8,-12.3,-53.9,-27.4C-43,-42.4,-21.5,-47.6,3.2,-49.4C27.9,-51.2,55.7,-49.7,68.6,-33.5Z" transform="translate(100 100)" />
+  </svg>
+  <div class="ion-padding">
+  <ion-list class="ion-padding">
+   
+    <ion-item class="wrap-input">
+      <ion-input [(ngModel)]="_titre" placeholder="ecrire un Titre"></ion-input>
+    </ion-item>
+    <ion-item class="wrap-input">
+    
+      <ion-textarea [(ngModel)]="_text" placeholder="Ecrire............. "> </ion-textarea>
+    </ion-item>
+   <!--<ion-item>
+      <ion-label>dossier</ion-label>
+      <ion-input [(ngModel)]="_dossier" ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>humeur</ion-label>
+      <ion-input [(ngModel)]="_humeur"></ion-input>
+    </ion-item>
+    <!--<ion-item>
+      <ion-label>tag</ion-label>
+      <ion-input [(ngModel)]="_tag"></ion-input>
+    </ion-item>-->
+    <ion-item class="wrap-input">
+      <ion-label>date debut</ion-label>
+      <ion-input type="date" [(ngModel)]="_date_debut"></ion-input>
+    </ion-item>
+    <ion-item class="wrap-input">
+      <ion-label>date fin</ion-label>
+      <ion-input type="date" [(ngModel)]="_date_fin"></ion-input>
+    </ion-item>
+
+
+  <!--  <ion-item>
+      <ion-list>
+        <ion-radio-group [(ngModel)]="_dossier">
+          <ion-list-header>
+            <ion-label>dossier</ion-label>
+          </ion-list-header>
+      
+          <ion-item>
+            <ion-label>affaire</ion-label>
+            <ion-radio slot="start" value="affaire"  ></ion-radio>
+          </ion-item>
+      
+          <ion-item>
+            <ion-label>amour</ion-label>
+            <ion-radio slot="start" value="amour"></ion-radio>
+          </ion-item>
+      
+          <ion-item>
+            <ion-label>amis</ion-label>
+            <ion-radio slot="start" value="amis" ></ion-radio>
+          </ion-item>
+        </ion-radio-group>
+
+      </ion-list>
+    </ion-item>-->
+
+
+    <ion-item class="wrap-input">
+      <ion-label>Dossier</ion-label>
+      <ion-select [(ngModel)]="_dossier">
+        <ion-select-option value="affaire">affaire</ion-select-option>
+        <ion-select-option value="amis">amis</ion-select-option>
+        <ion-select-option value="amour">amour</ion-select-option>
+        <ion-select-option value="divertissement">divertissement</ion-select-option>
+        <ion-select-option value="education">education</ion-select-option>
+        <ion-select-option value="todo">todo</ion-select-option>
+        <ion-select-option value="vacance">vacance</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+
+    <ion-item class="wrap-input">
+      <ion-label>Humeur</ion-label>
+      <ion-select [(ngModel)]="_humeur">
+        <ion-select-option value="heureux">heureux</ion-select-option>
+        <ion-select-option value="horrible">horrible</ion-select-option>
+        <ion-select-option value="incroyable">incroyable</ion-select-option>
+        <ion-select-option value="mauvaise">mauvaise</ion-select-option>
+        <ion-select-option value="pas de humeur">pas de humeur</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+
+  
+
+  <ion-item class="wrap-input">
+    <ion-label>Tag</ion-label>
+    <ion-select multiple="true" cancelText="Nah" okText="Okay!" [(ngModel)]="_tag">
+      <ion-select-option value="film">film</ion-select-option>
+      <ion-select-option value="idee">idee</ion-select-option>
+      <ion-select-option value="reve">reve</ion-select-option>
+      <ion-select-option value="study">study</ion-select-option>
+      <ion-select-option value="pas de tag">pas de tag</ion-select-option>
+      
+    </ion-select>
+  </ion-item>
+
+  
+
+
+    <ion-button class="container-form-btn" (click)="submitForm()"> enregistrer</ion-button>
+    
+  </ion-list>
+</div>
+</ion-content>
